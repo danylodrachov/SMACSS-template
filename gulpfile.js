@@ -15,7 +15,7 @@ var src = {
 },
     watch = {
         html:'src/*.html',
-        style: 'src/scss/*.scss'
+        style: 'src/**/**/*.scss'
 };
 
 gulp.task('html',  function(){
