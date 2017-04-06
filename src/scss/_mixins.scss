@@ -1,0 +1,3 @@
+@mixin bgPicture($url, $attachment){
+    background: url($url) $attachment 50% 50% no-repeat;
+}
